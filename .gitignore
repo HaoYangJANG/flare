@@ -4,9 +4,9 @@ __pycache__/
 *.egg-info/
 build/
 .venv/
-data/
-weights/
-output/
+/data/
+/weights/
+/output/
 *.pth
 *.tar*
 *.zip
