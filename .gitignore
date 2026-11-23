@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.so
+*.egg-info/
+build/
+.venv/
+data/
+weights/
+output/
+*.pth
+*.tar*
+*.zip
+.env

@@ -1,0 +1,10 @@
+FLARE packages extensions to DiffuDETR for DIOR and VisDrone.
+
+The DIOR and VisDrone source trees are separate archived implementations.
+New top-level release tools rebind data/checkpoint/output paths and expose
+the documented configurations. Detrex config resource symlinks were
+materialized as ordinary files for portable archive extraction.
+
+Upstream copyrights and licenses are retained in models/dior,
+models/visdrone, their Detrex directories, and vendor/detectron2.
+Dataset images and pretrained checkpoints have separate distribution terms.

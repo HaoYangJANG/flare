@@ -1,0 +1,30 @@
+[
+  {
+    "dataset": "dior",
+    "variant": "baseline",
+    "exit_code": 0,
+    "stdout": "^^^^^^^^^^^^^^ contrastive_version 1\nsigmoid_focal_loss  True\n*************** schedule ldm\n$$$$$$$$$$$$$$$ diffu det noise\n{\"dataset\": \"dior\", \"variant\": \"baseline\", \"classes\": 20, \"parameters\": 58056040, \"batch\": 4, \"ema_checkpoint_checked\": false}\n",
+    "stderr": "/root/autodl-tmp/diffudetr_full_frequency_v2_20261029_01/recovered/runtime/env/lib/python3.11/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers\n  warnings.warn(f\"Importing from {__name__} is deprecated, please import via timm.layers\", FutureWarning)\n/root/project_release_20261123/cpu_audit/project/vendor/detectron2/detectron2/config/lazy.py:183: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.\n  return old_import(name, globals, locals, fromlist=fromlist, level=level)\n"
+  },
+  {
+    "dataset": "dior",
+    "variant": "full",
+    "exit_code": 0,
+    "stdout": "^^^^^^^^^^^^^^ contrastive_version 1\nsigmoid_focal_loss  True\n*************** schedule ldm\n$$$$$$$$$$$$$$$ diffu det noise\n{\"dataset\": \"dior\", \"variant\": \"full\", \"classes\": 20, \"parameters\": 59458983, \"batch\": 4, \"ema_checkpoint_checked\": false}\n",
+    "stderr": "/root/autodl-tmp/diffudetr_full_frequency_v2_20261029_01/recovered/runtime/env/lib/python3.11/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers\n  warnings.warn(f\"Importing from {__name__} is deprecated, please import via timm.layers\", FutureWarning)\n/root/project_release_20261123/cpu_audit/project/vendor/detectron2/detectron2/config/lazy.py:183: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.\n  return old_import(name, globals, locals, fromlist=fromlist, level=level)\n"
+  },
+  {
+    "dataset": "visdrone",
+    "variant": "baseline",
+    "exit_code": 0,
+    "stdout": "^^^^^^^^^^^^^^ contrastive_version 1\nsigmoid_focal_loss  True\n*************** schedule ldm\n$$$$$$$$$$$$$$$ diffu det noise\n{\"dataset\": \"visdrone\", \"variant\": \"baseline\", \"classes\": 10, \"parameters\": 58035490, \"batch\": 2, \"ema_checkpoint_checked\": true}\n",
+    "stderr": "/root/autodl-tmp/diffudetr_full_frequency_v2_20261029_01/recovered/runtime/env/lib/python3.11/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers\n  warnings.warn(f\"Importing from {__name__} is deprecated, please import via timm.layers\", FutureWarning)\n/root/project_release_20261123/cpu_audit/project/vendor/detectron2/detectron2/config/lazy.py:183: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.\n  return old_import(name, globals, locals, fromlist=fromlist, level=level)\n"
+  },
+  {
+    "dataset": "visdrone",
+    "variant": "full",
+    "exit_code": 0,
+    "stdout": "^^^^^^^^^^^^^^ contrastive_version 1\nsigmoid_focal_loss  True\n*************** schedule ldm\n$$$$$$$$$$$$$$$ diffu det noise\n{\"dataset\": \"visdrone\", \"variant\": \"full\", \"classes\": 10, \"parameters\": 59437793, \"batch\": 2, \"ema_checkpoint_checked\": true}\n",
+    "stderr": "/root/autodl-tmp/diffudetr_full_frequency_v2_20261029_01/recovered/runtime/env/lib/python3.11/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers\n  warnings.warn(f\"Importing from {__name__} is deprecated, please import via timm.layers\", FutureWarning)\n/root/project_release_20261123/cpu_audit/project/vendor/detectron2/detectron2/config/lazy.py:183: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.\n  return old_import(name, globals, locals, fromlist=fromlist, level=level)\n"
+  }
+]
